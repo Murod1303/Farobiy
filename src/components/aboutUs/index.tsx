@@ -34,7 +34,7 @@ const AboutUs = () => {
             icon={MedalIcon}
             color="#D8DBFB"
           />
-          <img src={secondEl} alt="" width={685} height={459} />
+          <img src={secondEl} alt="" width={685} height={428} />
         </AboutUsRight>
       </AboutUsInner>
     </AboutUsWrapper>

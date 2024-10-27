@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const AboutUsWrapper = styled.div`
   padding-top: 40px;
+  padding-bottom: 40px;
 `;
 export const AboutUstitle = styled.h3`
   margin-bottom: 32px;
@@ -15,7 +16,6 @@ export const AboutUstitle = styled.h3`
 
 export const AboutUsInner = styled.div`
   display: flex;
-  align-items: center;
   gap: 24px;
 `;
 
