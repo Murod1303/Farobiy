@@ -6,6 +6,7 @@ export const HeroWrapper = styled.div`
   border-radius: 44px;
   background: #eaf4ff;
   overflow: hidden;
+  margin-bottom: 80px;
 `;
 export const DescriptionHero = styled.div`
   display: flex;
