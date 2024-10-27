@@ -1,6 +1,7 @@
 import Courses from "@/components/courses";
 import Header from "@/components/header";
 import HeroSection from "@/components/hero";
+import Teachers from "@/components/teachers";
 
 const MainLayout = () => {
   return (
@@ -9,6 +10,7 @@ const MainLayout = () => {
       <main>
         <HeroSection />
         <Courses />
+        <Teachers />
       </main>
     </div>
   );

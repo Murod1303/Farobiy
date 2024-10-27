@@ -85,7 +85,7 @@ export const CoursesCardButton = styled.button`
     transition: all 0.5s linear;
   }
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
     svg {
       transform: translate(10px);
     }
