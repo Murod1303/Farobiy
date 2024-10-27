@@ -1,3 +1,4 @@
+import AboutUs from "@/components/aboutUs";
 import Courses from "@/components/courses";
 import Header from "@/components/header";
 import HeroSection from "@/components/hero";
@@ -11,6 +12,7 @@ const MainLayout = () => {
         <HeroSection />
         <Courses />
         <Teachers />
+        <AboutUs />
       </main>
     </div>
   );
