@@ -4,7 +4,7 @@ import { CommonTitle, QuestionCardList } from "./questions.styled";
 
 const CommonQuestions = () => {
   return (
-    <div style={{ paddingTop: "40px", paddingBottom: "40px" }}>
+    <div style={{ paddingTop: "40px", paddingBottom: "80px" }}>
       <CommonTitle>Ko'p so'raladigan savollar</CommonTitle>
       <QuestionCardList>
         {questions?.map((item) => {
