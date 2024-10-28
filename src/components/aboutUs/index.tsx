@@ -13,7 +13,7 @@ import secondEl from "/assets/secondEl.png";
 
 const AboutUs = () => {
   return (
-    <AboutUsWrapper>
+    <AboutUsWrapper id="aboutUs">
       <AboutUstitle>Biz haqimizda</AboutUstitle>
       <AboutUsInner>
         <AboutUsLeft>

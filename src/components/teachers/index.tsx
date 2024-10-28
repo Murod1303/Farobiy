@@ -4,7 +4,7 @@ import TeacherCard from "./TeacherCard";
 
 const Teachers = () => {
   return (
-    <div style={{ paddingTop: "40px", paddingBottom: "40px" }}>
+    <div style={{ paddingTop: "40px", paddingBottom: "40px" }} id="teachers">
       <TeacherTitle>Bizning ustozlarimiz</TeacherTitle>
       <TeacherCardList>
         {teachers.map((item) => {

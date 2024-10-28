@@ -16,7 +16,8 @@ export const FooterWrapper = styled.div`
       .firsChildLi {
         width: 238px;
       }
-      li p {
+      li a {
+        display: inline-block;
         color: #0b2441;
         font-family: Manrope;
         font-size: 12px;
@@ -26,7 +27,7 @@ export const FooterWrapper = styled.div`
         letter-spacing: 0.24px;
       }
       li span {
-        display: inline-block;
+        display: block;
         margin-bottom: 12px;
         color: #0b2441;
         font-family: Manrope;
@@ -57,7 +58,7 @@ export const FooterWrapper = styled.div`
       display: flex;
       align-items: center;
       gap: 24px;
-      li {
+      li a {
         color: #0b2441;
         font-family: Manrope;
         font-size: 12px;

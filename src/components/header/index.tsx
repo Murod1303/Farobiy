@@ -23,22 +23,26 @@ const Header = () => {
         <HeaderWrappper>
           <HeaderLogoWrapper>
             <img src={logo} alt="" width={112} height={76} />
-            <HeaderLogoButton>
+            <HeaderLogoButton href="#courses">
               <HeaderLogoButtonText>Kurslar</HeaderLogoButtonText>
               <BookIcon />
             </HeaderLogoButton>
           </HeaderLogoWrapper>
           <HeaderNav>
             <HeaderList>
-              <HeaderListItem>Bizning ustozlarimiz</HeaderListItem>
-              <HeaderListItem>Biz haqimizda</HeaderListItem>
+              <HeaderListItem>
+                <a href="#teachers">Bizning ustozlarimiz</a>
+              </HeaderListItem>
+              <HeaderListItem>
+                <a href="#aboutUs">Biz haqimizda</a>
+              </HeaderListItem>
             </HeaderList>
             <HeaderInner>
               <HeaderLangButton>
                 <HeaderLangText>UZ</HeaderLangText>
                 <ArrowDown />
               </HeaderLangButton>
-              <HeaderPhoneButton>
+              <HeaderPhoneButton href="tel:+998917775411">
                 <PhoneIcon />
                 <HeaderPhoneText>+998 91 7775411</HeaderPhoneText>
               </HeaderPhoneButton>

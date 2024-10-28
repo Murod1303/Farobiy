@@ -11,15 +11,20 @@ const Footer = () => {
             <ul>
               <li className="firsChildLi">
                 <span>Manzil</span>
-                <p>Toshkent shahri, Yunusobod tumani, ko'ch. Amir Temur 129B</p>
+                <a
+                  href="https://maps.app.goo.gl/fzdRUPuXyWp9gLk6A"
+                  target="_blank"
+                >
+                  Toshkent shahri, Yunusobod tumani, ko'ch. Amir Temur 129B
+                </a>
+              </li>
+              <li>
+                <span>Yordam</span>
+                <a href="tel:+998917775411">+998 91 7775411</a>
               </li>
               <li>
                 <span>Pochta</span>
-                <p>+998 91 7775411</p>
-              </li>
-              <li>
-                <span>Manzil</span>
-                <p>Info@farobiy.com</p>
+                <a href="mailto:Info@farobiy.com">Info@farobiy.com</a>
               </li>
             </ul>
           </div>
@@ -29,15 +34,23 @@ const Footer = () => {
               orqali qiymat sotamiz.
             </p>
             <ul>
-              <li>Facebook</li>
-              <li>Twitter</li>
-              <li>Telegram</li>
-              <li>Instagram</li>
+              <li>
+                <a href="#">Facebook</a>
+              </li>
+              <li>
+                <a href="#">Twitter</a>
+              </li>
+              <li>
+                <a href="#">Telegram</a>
+              </li>
+              <li>
+                <a href="#">Instagram</a>
+              </li>
             </ul>
           </div>
           <hr />
           <div className="footerBottom">
-            <p>© 2022 by Fido Studio. Farobiy IT Academy</p>
+            <p>© 2024 by Neo13. Farobiy IT Academy</p>
           </div>
         </FooterWrapper>
       </div>

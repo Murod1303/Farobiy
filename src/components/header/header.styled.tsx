@@ -15,7 +15,7 @@ export const HeaderLogoWrapper = styled.div`
   align-items: flex-start;
   gap: 28px;
 `;
-export const HeaderLogoButton = styled.button`
+export const HeaderLogoButton = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,13 +48,22 @@ export const HeaderList = styled.ul`
   gap: 40px;
 `;
 export const HeaderListItem = styled.li`
-  color: #0b2441;
-  text-align: center;
-  font-family: Manrope;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px; /* 125% */
+  a {
+    display: inline-block;
+    color: #0b2441;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    scale: calc(1);
+    transition: all 0.5s linear;
+    &:hover {
+      scale: calc(1.03);
+      color: #2189ff;
+    }
+  }
 `;
 
 export const HeaderLangButton = styled.button`
@@ -85,7 +94,7 @@ export const HeaderInner = styled.div`
   gap: 24px;
 `;
 
-export const HeaderPhoneButton = styled.button`
+export const HeaderPhoneButton = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -95,6 +104,14 @@ export const HeaderPhoneButton = styled.button`
   border-radius: 16px;
   border: none;
   background: #eaf4ff;
+  transform: skew(0px, 0px);
+  transition: all 0.5s linear;
+  &:hover {
+    transform: skew(-2deg, -3deg);
+    box-shadow: rgba(43, 41, 42, 0.4) 5px 5px, rgba(17, 16, 17, 0.3) 10px 10px,
+      hsla(0, 0%, 4.705882352941177%, 0.2) 15px 15px,
+      rgba(27, 26, 27, 0.1) 20px 20px;
+  }
 `;
 export const HeaderPhoneText = styled.span`
   color: #2189ff;

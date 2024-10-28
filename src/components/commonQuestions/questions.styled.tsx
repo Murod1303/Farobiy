@@ -33,5 +33,9 @@ export const QuestionCardWrapper = styled.div`
     font-weight: 600;
     line-height: 32px; /* 133.333% */
   }
+  transition: all 0.5s linear;
+  &:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
 `;
 /* Card */

@@ -14,7 +14,7 @@ interface CardType {
 
 const CoursesCard: React.FC<CardType> = ({ heght, name, url, width }) => {
   return (
-    <CoursesCardWrapper $img={url} $heght={heght} $width={width}>
+    <CoursesCardWrapper $img={url} $heght={heght} $width={width} id="courses">
       <CoursesCardTitle>{name}</CoursesCardTitle>
       {name ? (
         <CoursesCardButton>

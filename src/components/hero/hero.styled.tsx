@@ -60,4 +60,8 @@ export const HeroButton = styled.button`
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
+  transition: all 0.5s linear;
+  &:hover {
+    scale: calc(1.05);
+  }
 `;
